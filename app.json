@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "5-tenedores",
-    "slug": "5-tenedores",
+    "name": "ecommerce-native",
+    "slug": "ecommerce-native",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ic_mudanzas.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.diegoshhh.ecommercenative"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -1,22 +1,15 @@
 
 
-const restaurantStack = {
-    tab: 'RestaurantsTab',
-    restaurants:'Restaurants',
-    addRestaurant:'AddRestaurant',
+const hometStack = {
+    tab: 'homeTab',
+    home:'Home',
+    infocartproduct:'InfoCartProduct'
 }
-const favoritesStack = {
-    tab: 'FavoriteTab',
-    favorites:'Favorites',
+const mycartStack = {
+    tab: 'MyCardTab',
+    mycart:'MyCartScreen',
 }
-const rankingStack = {
-    tab: 'RankingTab',
-    ranking:'Ranking',
-}
-const searchStack = {
-    tab: 'SearchTab',
-    search:'Search'
-}
+
 const accountStack = {
     tab: 'AccountTab',
     account:'Account',
@@ -26,9 +19,7 @@ const accountStack = {
 
 
 export const screen = {
-    restaurant: restaurantStack,
-    favorites: favoritesStack,
-    ranking: rankingStack,
-    search: searchStack,
+    home: hometStack,
+    mycart: mycartStack,
     account: accountStack,
 }

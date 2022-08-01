@@ -1,22 +1,20 @@
 import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack'
 import { screen } from '../data/screenName'
-import FavoritesScreen from '../screens/FavoritesScreen'
+import MyCartScreen from '../screens/MyCart/MyCartScreen'
 
 
 const Stack = createStackNavigator()
 
-const RestaurantStack = () => {
+const MyCartStack = () => {
   return (
     <Stack.Navigator>
         <Stack.Screen 
-            name={screen.favorites.favorites} 
-            component={FavoritesScreen} 
-            options={{title:'Favorites'}} 
+            name={screen.mycart.mycart} 
+            component={MyCartScreen} 
         />
-        
     </Stack.Navigator>
   )
 }
 
-export default RestaurantStack
+export default MyCartStack
